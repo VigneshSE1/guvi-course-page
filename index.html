@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Guvi Course Content</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="d-flex flex-row-reverse bd-highlight" style="height: 50px;">
+                    <div class="p-2 bd-highlight" style="margin-top: 0px;">
+                        <ul class="profileul">
+                            <li><button type="button" class="btn btn-link"><img src="notification.svg" alt="" width="30px"
+                                                height="30px"> </button>
+                            </li>
+                            <li>
+
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <img src="https://s3-ap-southeast-1.amazonaws.com/guvi-profile-images/284677.jpg" style="width: 30px" height="30px" alt="">
+                                        </button>
+
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="p-2 bd-highlight" style="margin-top: 11px;">
+                        <ul class="geekul">
+                            <li class="geekcoin"><img src="coin.svg" alt="" width="30px" height="30px"></li>
+                            <li class="geekcoin-count">5000</li>
+                            <li class="rank-class"> <strong>Rank:</strong> </li>
+                            <li class="rank-number">1234</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row realcontent" style="background-color:white;">
+            <div class="col-lg-12">
+                <div class="row courserow">
+                    <div class="col-lg-6">
+                        <h1>Course</h1>
+
+                    </div>
+                    <div class="col-lg-6">
+                        <form class="form-inline active-cyan-4">
+                            <input class="form-control form-control-sm mr-3 searchbox1" type="text" placeholder="What do you want to learn today?" aria-label="Search" style="width: 62%; margin-top: 11px; border-radius: 50px;">
+                            <i class="fas fa-search" aria-hidden="true"><img src="search.svg" alt="" width="20px" height="20px" style="margin-top: 7px;margin-left: -45px;"></i>
+                        </form>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="courselib-tab" data-toggle="tab" href="#courselibid" role="tab" aria-controls="coursetab;" aria-selected="true">Course Library</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="mycourse-tab" data-toggle="tab" href="#mycourseid" role="tab" aria-controls="mycoursetab" aria-selected="false">My Courses</a>
+                                </li>
+
+                            </ul>
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="courselibid" role="tabpanel" aria-labelledby="coursetab">
+                                    <div class="row">
+                                        <div col-lg-4>
+                                            <div class="card" style="width: 18rem;">
+                                                <img src="C.PNG" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">C Programing</h5>
+                                                    <p class="card-text">English | 50 Hrs | 50 Lessons</p>
+                                                    <p><s>10000</s> 50000</p>
+                                                    <a href="#" class="btn btn-primary" id=1 onclick="myfunction(1)" ;>Enroll</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div col-lg-4>
+                                            <div class="card" style="width: 18rem;">
+                                                <img src="C plus.PNG" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">C++ Programing</h5>
+                                                    <p class="card-text">English | 50 Hrs | 50 Lessons</p>
+                                                    <p><s>10000</s> 50000</p>
+                                                    <a href="#" class="btn btn-primary" id=2 onclick="myfunction(2)" ;>Enroll</a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div col-lg-4>
+                                            <div class="card" style="width: 18rem;">
+                                                <img src="ct.PNG" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">CT</h5>
+                                                    <p class="card-text">English | 50 Hrs | 50 Lessons</p>
+                                                    <p><s>10000</s> 50000</p>
+                                                    <a href="#" class="btn btn-primary" id=3 onclick="myfunction(3)" ;>Enroll</a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div col-lg-4>
+                                            <div class="card" style="width: 18rem;">
+                                                <img src="html.PNG" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">html</h5>
+                                                    <p class="card-text">English | 50 Hrs | 50 Lessons</p>
+                                                    <p><s>10000</s> 50000</p>
+                                                    <a href="#" class="btn btn-primary" id=4 onclick="myfunction(4)" ;>Enroll</a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div col-lg-4>
+                                            <div class="card" style="width: 18rem;">
+                                                <img src="servlt.PNG" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Servelt</h5>
+                                                    <p class="card-text">English | 50 Hrs | 50 Lessons</p>
+                                                    <p><s>10000</s> 50000</p>
+                                                    <a href="#" class="btn btn-primary" id=5 onclick="myfunction(5)" ;>Enroll</a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div col-lg-4>
+                                            <div class="card " style="width: 18rem; ">
+                                                <img src="spring.PNG " class="card-img-top " alt="... ">
+                                                <div class="card-body ">
+                                                    <h5 class="card-title "> Spring</h5>
+                                                    <p class="card-text ">English | 50 Hrs | 50 Lessons</p>
+                                                    <p><s>10000</s> 50000</p>
+                                                    <a href="# " class="btn btn-primary " id=6 onclick="myfunction(6)" ;>Enroll</a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="row ">
+                                        <div col-lg-4>
+                                            <div class="card " style="width: 18rem; ">
+                                                <img src="mongo.PNG " class="card-img-top " alt="... ">
+                                                <div class="card-body ">
+                                                    <h5 class="card-title ">Mongo DB</h5>
+                                                    <p class="card-text ">English | 50 Hrs | 50 Lessons</p>
+                                                    <p><s>10000</s> 50000</p>
+                                                    <a href="# " class="btn btn-primary " id=7 onclick="myfunction(7)" ;>Enroll</a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div col-lg-4>
+                                            <div class="card " style="width: 18rem; ">
+                                                <img src="python.PNG " class="card-img-top " alt="... ">
+                                                <div class="card-body ">
+                                                    <h5 class="card-title ">Python Programing</h5>
+                                                    <p class="card-text ">English | 50 Hrs | 50 Lessons</p>
+                                                    <p><s>10000</s> 50000</p>
+                                                    <a href="# " class="btn btn-primary " id=8 onclick="myfunction(8)" ;>Enroll</a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div col-lg-4>
+                                            <div class="card " style="width: 18rem; ">
+                                                <img src="mysql.PNG " class="card-img-top " alt="... ">
+                                                <div class="card-body ">
+                                                    <h5 class="card-title "> MY SQL</h5>
+                                                    <p class="card-text ">English | 50 Hrs | 50 Lessons</p>
+                                                    <p><s>10000</s> 50000</p>
+                                                    <a href="# " class="btn btn-primary " id=9 onclick="myfunction(9)" ;>Enroll</a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="tab-pane fade " id="mycourseid " role="tabpanel " aria-labelledby="mycoursetab ">
+
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    </div>
+
+    </div>
+
+    </div>
+
+    </div>
+
+
+
+
+</body>
+
+</html>

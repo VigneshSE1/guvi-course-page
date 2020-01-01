@@ -1,0 +1,15 @@
+.geekul li {
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+}
+
+.profileul li {
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+}
+
+.searchbox1 {
+    width: 64%;
+}
